@@ -1,56 +1,48 @@
-StuSphere - Student Lifestyle Management App 🎓📱
-StuSphere is a mobile app designed to help students build better habits, manage their daily routines, maintain notes and journals, and track their progress through interactive charts. The app includes user authentication, habit tracking, note-taking, and an analytics dashboard to visualize productivity and habit completion.
+# StuSphere - Student Lifestyle Management App 🎓📱
 
-Features 🌟
-User Authentication 🔐: Secure login and registration using Firebase Authentication.
+StuSphere is a mobile app designed to help students build better habits, manage daily routines, maintain notes and journals, and track progress through interactive charts. It includes user authentication, habit tracking, note-taking, and an analytics dashboard for productivity and habit completion.
 
-Habit Tracker 📝: Add, mark, and track daily habits.
+## Features 🌟
+- **User Authentication 🔐**: Secure login and registration using Firebase Authentication.
+- **Habit Tracker 📝**: Add, track, and mark daily habits.
+- **Notes & Journal 📖**: Create, update, and delete personal notes and reflections.
+- **Analytics Dashboard 📊**: Visualize progress with charts and stats for habits and notes.
+- **Navigation 🔄**: Smooth bottom tab navigation to easily switch between screens.
 
-Notes & Journal 📖: Maintain personal notes and reflections, with full CRUD functionality (Create, Read, Update, Delete).
+## Tech Stack 🔧
+- **React Native**: Framework for building the mobile app.
+- **Firebase**: Firebase Authentication for secure login and registration.
+- **React Navigation**: For seamless screen navigation.
+- **AsyncStorage**: Local storage for persistent user data.
+- **React Native Chart Kit**: To display interactive charts for tracking progress.
 
-Analytics Dashboard 📊: Visualize progress with charts and stats for habits and note-taking.
+## Installation ⚙️
 
-Navigation 🔄: Easy-to-use bottom tab navigation to switch between screens like Home, Habits, Dashboard, and Notes.
-
-Tech Stack 🔧
-React Native: Framework for building the mobile app.
-
-Firebase: Firebase Authentication for user login and registration.
-
-React Navigation: React Navigation library to manage screen transitions.
-
-AsyncStorage: Persistent local storage for storing user data like habits and notes.
-
-React Native Chart Kit: React Native Chart Kit for rendering charts and progress tracking.
-
-Installation ⚙️
-1. Clone the repository 📥
-bash
-Copy
+### Clone the Repository 📥
+```bash
 git clone https://github.com/shakeraema/StuSphere.git
-2. Install dependencies 📦
-bash
-Copy
+```
+## Install Dependencies 📦
+```bash
 cd StuSphere
 npm install
-3. Set up Firebase 🔑
-Create a Firebase project at Firebase Console.
+```
+## Set up Firebase 🔑
+-Create a Firebase project at Firebase Console.
 
-Enable Email/Password Authentication under Authentication > Sign-in method.
+-Enable Email/Password Authentication under Authentication > Sign-in method.
 
-Add your Firebase configuration details to src/firebaseConfig.js.
+-Add your Firebase config to src/firebaseConfig.js.
 
-4. Run the app 🚀
+## Run the app 🚀
 To start the app in development mode, run:
 
-bash
-Copy
+```bash
 npx expo start
+```
 This will start the app and open a browser window where you can use the QR code to open the app on your mobile device.
 
-Folder Structure 📂
-bash
-Copy
+## Folder Structure 📂
 StuSphere/
 ├── src/
 │   ├── contexts/
@@ -68,41 +60,42 @@ StuSphere/
 ├── App.js                           # Main entry point of the app
 ├── package.json                     # Project dependencies and scripts
 └── tsconfig.json                    # TypeScript configuration (if applicable)
-Features in Progress 🚧
-Push Notifications 🔔: Send reminders and notifications for habit tracking (using Expo Notifications).
 
-Cloud Sync ☁️: Sync notes and habits across devices using Firebase Firestore.
+## Features in Progress 🚧
+-**Push Notifications 🔔**: Send reminders and notifications for habit tracking (using Expo Notifications).
 
-Streaks and Statistics 📈: Add more advanced analytics, such as streak tracking, success rate over time, and weekly/monthly charts.
+-**Cloud Sync ☁️**: Sync notes and habits across devices using Firebase Firestore.
 
-Contributing 🛠️
+-**Streaks and Statistics 📈**: Add more advanced analytics, such as streak tracking, success rate over time, and weekly/monthly charts.
+
+## Contributing 🛠️
 If you'd like to contribute to StuSphere, please follow these steps:
 
-Fork the repository.
+-Fork the repository.
 
-Create a new branch (git checkout -b feature-name).
+-Create a new branch (git checkout -b feature-name).
 
-Make your changes and commit them (git commit -m 'Add new feature').
+-Make your changes and commit them (git commit -m 'Add new feature').
 
-Push to the branch (git push origin feature-name).
+-Push to the branch (git push origin feature-name).
 
-Open a Pull Request.
+-Open a Pull Request.
 
-Screenshots 📷
+## Screenshots 📷
 <img width="1080" height="2400" alt="image" src="https://github.com/user-attachments/assets/6b99a7ce-ed47-448b-80a6-177a049fee07" />
 <img width="1080" height="2400" alt="image" src="https://github.com/user-attachments/assets/879af3b7-6535-4fb8-a410-bc0201ec6433" />
 <img width="1080" height="2400" alt="image" src="https://github.com/user-attachments/assets/7915a12e-0400-4ee4-9ec0-077f2299021f" />
 
 
 
-License 📝
+## License 📝
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Links 🔗
-GitHub Repository=https://github.com/shakeraema/StuSphere.git
+## Links 🔗
+[GitHub Repository](https://github.com/shakeraema/StuSphere.git)
 
-Firebase=https://firebase.google.com/
+[Firebase](https://firebase.google.com/)
 
-Expo Documentation=https://docs.expo.dev/
+[Expo Documentation](https://docs.expo.dev/)
 
-React Navigation Documentation=https://reactnavigation.org/
+[React Navigation Documentation](https://reactnavigation.org/)
