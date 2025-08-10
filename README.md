@@ -82,10 +82,12 @@ If you'd like to contribute to StuSphere, please follow these steps:
 
 -Open a Pull Request.
 
-## Screenshots 📷
+<details>
+  <summary>📸 View Screenshots</summary>
 <img width="1080" height="2400" alt="image" src="https://github.com/user-attachments/assets/6b99a7ce-ed47-448b-80a6-177a049fee07" />
 <img width="1080" height="2400" alt="image" src="https://github.com/user-attachments/assets/879af3b7-6535-4fb8-a410-bc0201ec6433" />
 <img width="1080" height="2400" alt="image" src="https://github.com/user-attachments/assets/7915a12e-0400-4ee4-9ec0-077f2299021f" />
+</details>
 
 
 
