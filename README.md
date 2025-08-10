@@ -46,20 +46,21 @@ This will start the app and open a browser window where you can use the QR code 
 StuSphere/
 ├── src/
 │   ├── contexts/
-│   │   └── AuthContext.js           # Context for authentication state
+│   │   └── AuthContext.js # Authentication context
 │   ├── navigation/
-│   │   └── AppNavigator.js          # Handles screen navigation
+│   │   └── AppNavigator.js # Navigation handler
 │   ├── screens/
-│   │   ├── HomeScreen.js            # Main home screen
-│   │   ├── LoginScreen.js           # Login screen
-│   │   ├── RegisterScreen.js        # Registration screen
-│   │   ├── HabitScreen.js           # Habit tracking screen
-│   │   ├── NotesScreen.js           # Notes screen
-│   │   └── DashboardScreen.js       # Analytics dashboard screen
-│   └── firebaseConfig.js            # Firebase configuration and auth setup
-├── App.js                           # Main entry point of the app
-├── package.json                     # Project dependencies and scripts
-└── tsconfig.json                    # TypeScript configuration (if applicable)
+│   │   ├── HomeScreen.js # Main home screen
+│   │   ├── LoginScreen.js # Login screen
+│   │   ├── RegisterScreen.js # Registration screen
+│   │   ├── HabitScreen.js # Habit tracking screen
+│   │   ├── NotesScreen.js # Notes screen
+│   │   └── DashboardScreen.js # Analytics dashboard screen
+│   └── firebaseConfig.js # Firebase configuration
+├── App.js # Main entry point
+├── package.json # Project dependencies
+└── tsconfig.json # TypeScript configuration (if applicable)
+
 
 ## Features in Progress 🚧
 -**Push Notifications 🔔**: Send reminders and notifications for habit tracking (using Expo Notifications).
