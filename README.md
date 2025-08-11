@@ -91,8 +91,6 @@ If you'd like to contribute to StuSphere, please follow these steps:
 
 
 
-## License 📝
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Links 🔗
 [GitHub Repository](https://github.com/shakeraema/StuSphere.git)
